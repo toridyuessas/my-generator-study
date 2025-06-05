@@ -1,0 +1,19 @@
+# Build outputs
+*.riscv
+*.o
+*.dump
+target/
+generated-src/
+
+# Simulation outputs
+*.vcd
+*.log
+output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# macOS
+.DS_Store

@@ -1,0 +1,14 @@
+# Makefile fragment for integrating GCD test programs
+# Add to tests/Makefile in PROGRAMS list:
+#
+# PROGRAMS = ... gcd-rocc gcd-benchmark gcd-quick-benchmark
+
+# Build commands:
+# make gcd-rocc.riscv
+# make gcd-benchmark.riscv  
+# make gcd-quick-benchmark.riscv
+
+# Run commands:
+# ./simulator-chipyard.harness-GCDRoCCRocketConfig ../../tests/gcd-rocc.riscv
+# ./simulator-chipyard.harness-GCDRoCCRocketConfig ../../tests/gcd-benchmark.riscv
+# ./simulator-chipyard.harness-GCDRoCCRocketConfig ../../tests/gcd-quick-benchmark.riscv
